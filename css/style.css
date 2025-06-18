@@ -36,7 +36,6 @@ header li a {
 
 header li a:hover {
     color: #2f3640;
-    text-decoration: underline;
     background-color: #fff;
     padding: 8px;
     border-radius: 4px;
@@ -144,8 +143,9 @@ section h2 {
     border: 1px solid #009432;
 }
 
-#sports a:hover {
-    color: #ffff;
+#sports a:hover,
+.esporte a:hover {
+    color: #fff;
     background-color: #009432;
 }
 
@@ -166,7 +166,8 @@ section h2 {
     border: 1px solid #ff9602;
 }
 
-#economy a:hover {
+#economy a:hover,
+.economia a:hover {
     color: #fff;
     background-color: #ff9602;
 }
@@ -188,7 +189,8 @@ section h2 {
     border: 1px solid rgb(238, 19, 140);
 }
 
-#entertrainment a:hover {
+#entertrainment a:hover,
+.entreterimento a:hover {
     color: #ffff;
     background-color: rgb(238, 19, 140);
 }
@@ -210,7 +212,8 @@ section h2 {
     border: 1px solid rgb(96, 19, 238);
 }
 
-#technology a:hover {
+#technology a:hover,
+.tecnologia a:hover {
     color: #ffff;
     background-color: rgb(96, 19, 238);
 }
