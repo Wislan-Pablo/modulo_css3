@@ -225,6 +225,7 @@ footer .container {
     display: flex;
     align-items: top;
     justify-content: space-between;
+    margin-bottom: 32px;
 }
 
 footer li {
@@ -275,6 +276,7 @@ footer .ecopy {
     text-align: center;
     font-size: 14px;
     font-weight: 100;
+    margin-top: 16px;
 }
 
 footer p {
